@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.9s;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    font-family: 'poppins' Arial, Helvetica, sans-serif;
+}
+
+@import "./narmalise";
+@import "./variables";
+@import "./mixing";
+@import "../bloks/sentir";
+@import "./responsive";

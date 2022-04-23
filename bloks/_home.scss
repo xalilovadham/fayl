@@ -1,0 +1,47 @@
+.site-home{
+    padding-top: 100px;
+}
+.section-home{
+    @include flex;
+    justify-content: space-between;
+    .home-block{
+        width: 40%;
+        position: relative;
+        &__title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 64px;
+            line-height: 80px;
+            color: $main-black;
+        }
+        &__subtitle{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 36px;
+            color: $main-sub; 
+            margin-top: 10px;
+        }
+        &__link{
+            margin-top: 70px;
+        }
+        &__link a{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 54px;
+            color: #FFFFFF;
+            background: $main-linkbac;
+            border-radius: 15px;
+            padding: 20px 80px;
+        }
+        &__img{
+            position: absolute;
+            top: 15px;
+            right: 0;
+        }
+    }
+}

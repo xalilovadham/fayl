@@ -1,0 +1,63 @@
+.contact-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    .contact-img{
+        width: 33%;
+    }
+    .contact-card{
+        width: 60%;
+        &__title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+            color: #000000;
+        }
+        &__subtitle{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #8F95A5;
+            margin-top: 35px;
+        }
+    }
+}
+.contact-parent2{
+    @include flex;
+    margin-top: 50px;
+    form{
+        width: 45%;
+        height: 60px;
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+        @include flex;
+        input{
+            outline: none;
+            border: none;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #8F95A5;
+            margin-left: 20px;
+        }
+    }
+    button{
+        width: 35%;
+        height: 60px;
+        background: #263238;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-left: 12px;
+    }
+}

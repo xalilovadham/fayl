@@ -1,0 +1,46 @@
+.pricing-title{
+    margin-top: 200px;
+}
+.pricing-parent{
+    @include flex;
+    justify-content: space-between;
+}
+.pricing-parent__card{
+    width: 32%;
+    margin-top: 57px;
+    &-img{
+        width: 280px;
+        height: 280px;
+    }
+    &-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 38px;
+        color: #263238;
+        margin-top: 54px;
+    }
+    &-subtitle{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #8F95A5;
+        margin-top: 20px;
+    }
+    &-sena{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        color: #263238;
+        padding: 7px 7px;
+        background-color: rgb(238,238,238);
+        display: inline-block;
+        border-radius: 10px;
+        margin-top: 29px;
+    }
+}

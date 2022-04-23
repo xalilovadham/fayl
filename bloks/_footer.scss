@@ -1,0 +1,25 @@
+hr{
+    margin-top: 160px;
+    background: #C4C4C4;
+}
+.footer-parent{
+    @include flex;
+    justify-content: space-between;
+    height: 80px;
+    & a{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        color: #000000;
+    }
+    .footer-subtitle{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        color: #8F95A5;
+    }
+}
